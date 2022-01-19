@@ -9,7 +9,7 @@ print('''
 ██║██╔═══╝░╚════╝██║██║╚████║██╔══╝░░██║░░██║
 ██║██║░░░░░░░░░░░██║██║░╚███║██║░░░░░╚█████╔╝
 ╚═╝╚═╝░░░░░░░░░░░╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚════╝░
-	By SaLeH | insta @8_uvw''')
+	By SaLeH | insta @8_wvu''')
 
 colorama.init(autoreset=True)
 red=Fore.RED
@@ -38,7 +38,7 @@ try:
 	timezone = (req['timezone'])
 
 	print(f"{red}="*25)
-	print(f'[+] ip : {ip}\n[+] city : {city} \n[+] region : {region}\n[+] country : {country}\n[+] loc : {loc}\n[+] org : {org}\n[+] timezone : {timezone}\n[+] By SaLeH & insta @8_uvw')
+	print(f'[+] ip : {ip}\n[+] city : {city} \n[+] region : {region}\n[+] country : {country}\n[+] loc : {loc}\n[+] org : {org}\n[+] timezone : {timezone}\n[+] By SaLeH & insta @8_wvu')
 	print(f"{red}="*25)
 
 except:
@@ -51,7 +51,7 @@ if user =='y':
 	ID = input("[-] Enter Your id :").strip()
 	token = input("[-] Enter Your Token :").strip()
 	print(f"{red}="*25)
-	tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=[*] ip : {ip}\n[*] city : {city} \n[*] region : {region}\n[*] country : {country}\n[*] loc : {loc}\n[*] org : {org}\n[*] timezone : {timezone}\n[*] By SaLeH insta @8_uvw''')
+	tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=[*] ip : {ip}\n[*] city : {city} \n[*] region : {region}\n[*] country : {country}\n[*] loc : {loc}\n[*] org : {org}\n[*] timezone : {timezone}\n[*] By SaLeH insta @8_wvu''')
 										
 	reqte = requests.post(tlg)
 	print(f"{green}[+] Done Goodbye :)")
