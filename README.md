@@ -15,4 +15,4 @@
 
 ##### By SaLeH 
 - twitter @S75XD 
-- instagram @8_uvw
+- instagram @8_wvu
